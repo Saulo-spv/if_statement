@@ -6,11 +6,11 @@ using std::endl;
 void bissexto(int ano);
 
 int main() {
-    int ano;
+    int ano = 0;
 
     cout << "Verificador de ano bissexto" << endl;
 
-    cout << "Insira o ano: ";
+    cout << "Insira o ano: " << endl;
     cin >> ano;
 
     bissexto(ano);

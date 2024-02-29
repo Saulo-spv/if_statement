@@ -12,10 +12,10 @@ int main() {
 
     cout << "Calculadora de IMC" << endl;
 
-    cout << "Insira seu peso: ";
+    cout << "Insira seu peso: "<< endl;
     cin >> weight;
 
-    cout << "Insira sua altura: ";
+    cout << "Insira sua altura: "<< endl;
     cin >> height;
 
     imc(height, weight);
